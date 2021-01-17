@@ -1,22 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EasyHook", "EasyHook\EasyHook.vcxproj", "{8553FEB8-1B02-42AA-976D-FC371305A958}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8553FEB8-1B02-42AA-976D-FC371305A958}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{8553FEB8-1B02-42AA-976D-FC371305A958}.Debug|x64.ActiveCfg = Debug|x64
 		{8553FEB8-1B02-42AA-976D-FC371305A958}.Debug|x64.Build.0 = Debug|x64
 		{8553FEB8-1B02-42AA-976D-FC371305A958}.Debug|x86.ActiveCfg = Debug|Win32
 		{8553FEB8-1B02-42AA-976D-FC371305A958}.Debug|x86.Build.0 = Debug|Win32
+		{8553FEB8-1B02-42AA-976D-FC371305A958}.Release|Any CPU.ActiveCfg = Release|Win32
 		{8553FEB8-1B02-42AA-976D-FC371305A958}.Release|x64.ActiveCfg = Release|x64
 		{8553FEB8-1B02-42AA-976D-FC371305A958}.Release|x64.Build.0 = Release|x64
 		{8553FEB8-1B02-42AA-976D-FC371305A958}.Release|x86.ActiveCfg = Release|Win32
@@ -24,5 +28,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {641646AB-D998-409F-B77E-757A4396B301}
 	EndGlobalSection
 EndGlobal
